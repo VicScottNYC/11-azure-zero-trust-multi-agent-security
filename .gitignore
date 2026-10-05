@@ -1,0 +1,28 @@
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*
+secrets*
+.azure/
+.aws/
+# Environments and generated artifacts
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tfstate*
+*.tfvars
+*.tfvars.json
+*.bicepparam
+local.settings.json
